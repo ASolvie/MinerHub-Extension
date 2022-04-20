@@ -1,0 +1,39 @@
+body.body-background {
+	background: #262626;
+}
+
+body{
+    color: #ffff;
+}
+
+.side-menu {
+    background: #606060;
+}
+
+.active {
+    background-color: #3b6d46;
+}
+body.left.side-menu.side-menu-event {
+    background: #3b3b3b;
+}
+
+/* .topbar.topbar-app.topbar--has-toggle.topbar--light.topbar--reverse
+{
+    background: #6a6a6a;
+} */
+
+.topbar {
+    background: #6a6a6a;
+}
+
+.card {
+    background-color: #000;
+}
+
+.card-block {
+    color: white;
+}
+
+.nav-third-level.nav {
+    color: black;
+}

@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "Minerhub",
+    "version": "1.0",
+  
+    "description": "You know.",
+  
+    "icons": {
+      "48": "icons/minerHubNew-48.png"
+    },
+
+    "web_accessible_resources": [
+        "images/minerHubNew.png"
+    ],
+
+    "content_scripts": [
+      {
+        "matches": ["*://mst.campusgroups.com/*"],
+        "js": ["minerhub.js"],
+        "css": ["styles.css"]
+      }
+    ]
+    
+  
+  }
+  
